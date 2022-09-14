@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+#schaakbord {
+    width: 480px;
+    height: 480px;
+    border: 8px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.wit {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.grijs {
+    width: 60px;
+    height: 60px;
+    float: left;
+    background-color: #777777;
+}
